@@ -38,7 +38,7 @@ The Actor charges `$0.004` per evaluated document. A platform Actor-start event 
 
 ## Real output examples
 
-All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm`, dataset `JAkABPptE7mBiYAng`.
+All three records below are verbatim rows from successful run `OdBixrTgdWyEU9wY6`, build `0.0.3`, dataset `mOxicFvIjtvKqBxDK`.
 
 <details>
 <summary><strong>01. ACCEPTED</strong> - synthetic CIUS-RO UBL invoice</summary>
@@ -54,6 +54,7 @@ All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm
   "conformanceStatus": "ACCEPTED",
   "previewConformanceStatus": "NOT_EVALUATED",
   "validationScope": "OFFLINE_PREFLIGHT",
+  "externalStateStatus": "NOT_EVALUATED_EXTERNAL_STATE",
   "rulesetEffectiveAt": "2024-06-05",
   "sourceFormat": "XML",
   "validationFamily": "ROMANIA_EFACTURA_CIUS_RO",
@@ -66,6 +67,9 @@ All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm
     "roSchematron": "1.0.9",
     "embeddedEn16931": "1.3.8",
     "saxonHe": "10.9",
+    "saxonHeSha256": "491d8edf4ec811d15c2b2417b007218b9b938f15e4dfbad004025beb4e70e960",
+    "compiledSchematronSha256": "3088b39e24dab440dc98b55cb4ba6845a5fd22b382da1f376f592ee6e0d0f2eb",
+    "temurinJreImage": "eclipse-temurin:21-jre-jammy@sha256:d63bd8d9b171999cbed8576f2c76e874dd4856791a358536e5c4d407e77edc13",
     "schematronSkeleton": "02f3707b194ce5792bf77b14a66d782c060abba3",
     "roRulesArchiveSha256": "818e7dd77e429f5dbde7c60b43dddbdf1a9a82a1773c359caa80a36ef89ea7f2",
     "ublArchiveSha256": "60b80d76394a8a2add90723ecb8e0e2e9d826775de9749df37a72d60703f86ed",
@@ -73,7 +77,7 @@ All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm
       "name": "CIUS-RO 1.0.1 / ro16931-ubl 1.0.9",
       "effectiveAt": "2024-06-05"
     },
-    "artifactManifestSha256": "289298a3e037eb1fb073761391d9503f771dfa0ae5edd8372a912b477d4891aa"
+    "artifactManifestSha256": "39add0e63650bd7ee218eaeae8459ee912331280be57ee686815977dd7e404ce"
   },
   "counts": {
     "fatal": 0,
@@ -94,7 +98,7 @@ All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm
   "sha256": "4a51789dc322ccbdbfa8066e7b313971842a7c53e57e70957de453c4a5b99c4a",
   "embeddedXmlSha256": null,
   "container": null,
-  "checkedAt": "2026-07-29T10:39:19.574825Z",
+  "checkedAt": "2026-07-29T11:24:48.006471Z",
   "reports": {},
   "error": null
 }
@@ -116,6 +120,7 @@ All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm
   "conformanceStatus": "REJECTED",
   "previewConformanceStatus": "NOT_EVALUATED",
   "validationScope": "OFFLINE_PREFLIGHT",
+  "externalStateStatus": "NOT_EVALUATED_EXTERNAL_STATE",
   "rulesetEffectiveAt": "2024-06-05",
   "sourceFormat": "XML",
   "validationFamily": "ROMANIA_EFACTURA_CIUS_RO",
@@ -128,6 +133,9 @@ All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm
     "roSchematron": "1.0.9",
     "embeddedEn16931": "1.3.8",
     "saxonHe": "10.9",
+    "saxonHeSha256": "491d8edf4ec811d15c2b2417b007218b9b938f15e4dfbad004025beb4e70e960",
+    "compiledSchematronSha256": "3088b39e24dab440dc98b55cb4ba6845a5fd22b382da1f376f592ee6e0d0f2eb",
+    "temurinJreImage": "eclipse-temurin:21-jre-jammy@sha256:d63bd8d9b171999cbed8576f2c76e874dd4856791a358536e5c4d407e77edc13",
     "schematronSkeleton": "02f3707b194ce5792bf77b14a66d782c060abba3",
     "roRulesArchiveSha256": "818e7dd77e429f5dbde7c60b43dddbdf1a9a82a1773c359caa80a36ef89ea7f2",
     "ublArchiveSha256": "60b80d76394a8a2add90723ecb8e0e2e9d826775de9749df37a72d60703f86ed",
@@ -135,7 +143,7 @@ All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm
       "name": "CIUS-RO 1.0.1 / ro16931-ubl 1.0.9",
       "effectiveAt": "2024-06-05"
     },
-    "artifactManifestSha256": "289298a3e037eb1fb073761391d9503f771dfa0ae5edd8372a912b477d4891aa"
+    "artifactManifestSha256": "39add0e63650bd7ee218eaeae8459ee912331280be57ee686815977dd7e404ce"
   },
   "counts": {
     "fatal": 2,
@@ -175,7 +183,7 @@ All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm
   "sha256": "db8b2bc2b631db1e12416cbc4885bca3893e6f9c6066705a7284ef76cb348f86",
   "embeddedXmlSha256": null,
   "container": null,
-  "checkedAt": "2026-07-29T10:39:21.106612Z",
+  "checkedAt": "2026-07-29T11:24:49.650529Z",
   "reports": {},
   "error": null
 }
@@ -184,19 +192,20 @@ All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm
 </details>
 
 <details>
-<summary><strong>03. NOT_EVALUATED</strong> - unsafe source rejected before validation</summary>
+<summary><strong>03. NOT_EVALUATED</strong> - unsupported CII syntax receives no technical decision</summary>
 
 [`03_live_not_evaluated_output.json`](03_live_not_evaluated_output.json)
 
 ```json
 {
   "inputIndex": 2,
-  "documentId": "ro-not-evaluated",
-  "fileName": "http-source.xml",
+  "documentId": "ro-unsupported-cii",
+  "fileName": "unsupported_cii.xml",
   "processingStatus": "FAILED",
   "conformanceStatus": "NOT_EVALUATED",
   "previewConformanceStatus": "NOT_EVALUATED",
   "validationScope": "OFFLINE_PREFLIGHT",
+  "externalStateStatus": "NOT_EVALUATED_EXTERNAL_STATE",
   "rulesetEffectiveAt": "2024-06-05",
   "sourceFormat": "UNKNOWN",
   "validationFamily": "UNKNOWN",
@@ -209,6 +218,9 @@ All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm
     "roSchematron": "1.0.9",
     "embeddedEn16931": "1.3.8",
     "saxonHe": "10.9",
+    "saxonHeSha256": "491d8edf4ec811d15c2b2417b007218b9b938f15e4dfbad004025beb4e70e960",
+    "compiledSchematronSha256": "3088b39e24dab440dc98b55cb4ba6845a5fd22b382da1f376f592ee6e0d0f2eb",
+    "temurinJreImage": "eclipse-temurin:21-jre-jammy@sha256:d63bd8d9b171999cbed8576f2c76e874dd4856791a358536e5c4d407e77edc13",
     "schematronSkeleton": "02f3707b194ce5792bf77b14a66d782c060abba3",
     "roRulesArchiveSha256": "818e7dd77e429f5dbde7c60b43dddbdf1a9a82a1773c359caa80a36ef89ea7f2",
     "ublArchiveSha256": "60b80d76394a8a2add90723ecb8e0e2e9d826775de9749df37a72d60703f86ed",
@@ -216,7 +228,7 @@ All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm
       "name": "CIUS-RO 1.0.1 / ro16931-ubl 1.0.9",
       "effectiveAt": "2024-06-05"
     },
-    "artifactManifestSha256": "289298a3e037eb1fb073761391d9503f771dfa0ae5edd8372a912b477d4891aa"
+    "artifactManifestSha256": "39add0e63650bd7ee218eaeae8459ee912331280be57ee686815977dd7e404ce"
   },
   "counts": {
     "fatal": 0,
@@ -237,11 +249,11 @@ All three records below are verbatim rows from successful run `FVLTBJAZyNfTn2epm
   "sha256": null,
   "embeddedXmlSha256": null,
   "container": null,
-  "checkedAt": "2026-07-29T10:39:21.171757Z",
+  "checkedAt": "2026-07-29T11:24:49.736973Z",
   "reports": {},
   "error": {
-    "code": "SOURCE_FETCH_FAILED",
-    "message": "Only HTTPS source URLs are allowed"
+    "code": "UNSUPPORTED_DOCUMENT",
+    "message": "The XML root does not match a supported invoice syntax"
   }
 }
 ```
@@ -265,6 +277,7 @@ Use [`dataset_record.schema.json`](dataset_record.schema.json) to validate store
 processingStatus -> SUCCEEDED | FAILED
 conformanceStatus -> ACCEPTED | REJECTED | NOT_EVALUATED
 validationScope -> OFFLINE_PREFLIGHT
+externalStateStatus -> NOT_EVALUATED_EXTERNAL_STATE
 findings[] -> severity, stage, ruleId, message, location
 versions{} -> pinned rule and artifact identities
 ```

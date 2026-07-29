@@ -8,11 +8,11 @@ The Actor and this repository are independent, unofficial products. They are not
 
 ## Provenance snapshot
 
-The three JSON records were retrieved on 2026-07-29 from successful Apify run `FVLTBJAZyNfTn2epm`, dataset `JAkABPptE7mBiYAng`.
+The three JSON records were retrieved on 2026-07-29 from successful Apify run `OdBixrTgdWyEU9wY6`, build `0.0.3` (`DpQXkcSU1bwHQYqpx`), dataset `mOxicFvIjtvKqBxDK`.
 
 - `01_live_accepted_output.json` is an `ACCEPTED` result for a synthetic CIUS-RO UBL fixture.
 - `02_live_rejected_output.json` is a `REJECTED` result with arithmetic consistency findings.
-- `03_live_not_evaluated_output.json` is a `NOT_EVALUATED` source-safety result caused by a non-HTTPS URL.
+- `03_live_not_evaluated_output.json` is a `NOT_EVALUATED` result for an unsupported CII syntax.
 
 The JSON files are verbatim dataset records. No field was reconstructed, inferred, or edited.
 
