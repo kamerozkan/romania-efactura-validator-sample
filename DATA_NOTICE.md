@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repository is a technical sample for the [Romania e-Factura Validator API](https://apify.com/kamerozkan/romania-efactura-validator). It contains three real dataset rows and the corresponding standalone JSON Schema.
+This repository is the public technical release preview for the private `romania-efactura-validator` Actor. It contains three real dataset rows, three matching runnable input definitions, their synthetic XML fixtures, and the corresponding standalone JSON Schema. The Actor is not currently available through the public Apify Store.
 
 The Actor and this repository are independent, unofficial products. They are not affiliated with, sponsored by, or endorsed by ANAF, Romania's Ministry of Finance, any invoice recipient, or any upstream validation project.
 
@@ -10,11 +10,21 @@ The Actor and this repository are independent, unofficial products. They are not
 
 The three JSON records were retrieved on 2026-07-29 from successful Apify run `OdBixrTgdWyEU9wY6`, build `0.0.3` (`DpQXkcSU1bwHQYqpx`), dataset `mOxicFvIjtvKqBxDK`.
 
+The latest private hosted build was separately verified as `0.0.4` `SUCCEEDED` on 2026-07-30. Exact `invoice-validated` pricing at `$0.004` is configured, but the Store publication attempt was blocked by the account's daily publication quota. This repository does not claim public Actor availability.
+
 - `01_live_accepted_output.json` is an `ACCEPTED` result for a synthetic CIUS-RO UBL fixture.
 - `02_live_rejected_output.json` is a `REJECTED` result with arithmetic consistency findings.
 - `03_live_not_evaluated_output.json` is a `NOT_EVALUATED` result for an unsupported CII syntax.
 
 The JSON files are verbatim dataset records. No field was reconstructed, inferred, or edited.
+
+## Runnable input provenance
+
+- [`01_accepted_input.json`](01_accepted_input.json) references the committed `valid_invoice.xml` fixture; SHA-256 `4a51789dc322ccbdbfa8066e7b313971842a7c53e57e70957de453c4a5b99c4a`.
+- [`02_rejected_input.json`](02_rejected_input.json) references the committed `invalid_totals.xml` fixture; SHA-256 `db8b2bc2b631db1e12416cbc4885bca3893e6f9c6066705a7284ef76cb348f86`.
+- [`03_not_evaluated_input.json`](03_not_evaluated_input.json) references the committed unsupported CII fixture used to demonstrate the syntax boundary.
+
+The first two digests match their corresponding real output rows. The linked input files become runnable from their raw GitHub URLs when this repository refresh is published; that does not make the private Actor publicly runnable.
 
 ## Privacy and security
 
