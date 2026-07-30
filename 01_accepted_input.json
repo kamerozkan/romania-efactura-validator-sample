@@ -1,0 +1,13 @@
+{
+  "documents": [
+    {
+      "documentId": "ro-valid",
+      "fileName": "valid_invoice.xml",
+      "url": "https://raw.githubusercontent.com/kamerozkan/romania-efactura-validator-sample/main/fixtures/valid_invoice.xml"
+    }
+  ],
+  "resultDetail": "FINDINGS",
+  "maxFindingsPerDocument": 100,
+  "storeXmlReport": false,
+  "storeHtmlReport": false
+}
