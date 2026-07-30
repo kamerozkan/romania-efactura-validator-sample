@@ -1,0 +1,13 @@
+{
+  "documents": [
+    {
+      "documentId": "ro-unsupported-cii",
+      "fileName": "unsupported_cii.xml",
+      "url": "https://raw.githubusercontent.com/kamerozkan/romania-efactura-validator-sample/main/fixtures/unsupported_cii.xml"
+    }
+  ],
+  "resultDetail": "FINDINGS",
+  "maxFindingsPerDocument": 100,
+  "storeXmlReport": false,
+  "storeHtmlReport": false
+}
